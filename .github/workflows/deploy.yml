@@ -31,6 +31,9 @@ jobs:
       - name: List output directory
         run: ls -la out/  # 添加此步骤以检查输出目录
         
+      - name: List output directory before upload
+        run: ls -la out/  # 确认上传前的输出目录内容
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -45,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2 
+        uses: actions/deploy-pages@v4 
