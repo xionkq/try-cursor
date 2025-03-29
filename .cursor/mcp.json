@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\30301\\Desktop"
+      ]
+    },
+    "mcp-docx": {
+      "command": "python D:\\github\\github-personal\\try-cursor\\.cursor\\server.py",
+      "args": []
+    },
+    "browser-tool-mcp": {
+      "command": "cmd",
+        "args": [
+          "/c",
+          "npx",
+          "-y",
+          "@agentdeskai/browser-tools-mcp@latest"
+      ]
+    }
+  }
+}
